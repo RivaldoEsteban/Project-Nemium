@@ -1,0 +1,93 @@
+.main-content {
+  inline-size: 56.25rem;
+  display: inline-block;
+}
+
+.hr {
+  margin-block-end: 4rem;
+  margin-block-start: 4rem;
+  border: 1px solid rgba(61, 61, 61, 0.2);
+}
+
+.presentation h1 {
+  font: var(--h1);
+  color: var(--colorPrimary);
+}
+
+.presentation h1::after {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background: black;
+}
+
+.presentation p {
+  font: var(--text);
+  color: var(--colorPrimary);
+}
+
+.tool {
+  margin-block-end: 2.5rem;
+  margin-block-start: 2.5rem;
+}
+
+.tools-img {
+  background: #000000;
+  padding-block-end: 1rem;
+  padding-block-start: 1rem;
+  padding-inline-end: 0.75rem;
+  padding-inline-start: 0.75rem;
+  border-radius: 50%;
+  inline-size: 5rem;
+  block-size: 5rem;
+  box-sizing: border-box;
+}
+
+.tools-img.figma {
+  padding-inline-end: 1.62rem;
+  padding-inline-start: 1.62rem;
+  padding-block-end: 1.25rem;
+  padding-block-start: 1.25rem;
+}
+
+.tool-title {
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+  font: var(--h3);
+  color: #424242;
+  position: relative;
+  line-height: 2.4rem;
+}
+
+.tool h3::before {
+  content: counter(tool-title);
+}
+
+.tool-title::after {
+  content: "";
+  width: 5rem;
+  height: 0.25rem;
+  display: inline-block;
+  background: var(--colorPrimary);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.tool-description {
+  margin: 0;
+  font: var(--text);
+  color: #424242;
+}
+
+.tool-description b {
+  font: var(--text-bold);
+}
+
+.web-development h2 {
+  margin-block: 2.5rem;
+}
+
+.title-h2 {
+  font: var(--h2);
+}

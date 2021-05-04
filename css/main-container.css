@@ -1,0 +1,15 @@
+@import "./link.css";
+@import "./main.css";
+
+.main-container {
+  padding-inline-end: 7.25rem;
+  padding-inline-start: 7.25rem;
+  padding-block-end: 4rem;
+  padding-block-start: 4rem;
+  display: inline-block;
+}
+
+.wrapper {
+  max-width: 85.375rem;
+  margin: auto;
+}

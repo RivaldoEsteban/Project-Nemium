@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./main-container.css";
+
+:root {
+  --colorPrimary: #212121;
+  --fontFamily: "Roboto", sans-serif;
+  --h1: normal 400 3.75rem/ 4.37rem var(--fontFamily);
+  --h2: normal 400 2rem/ 2.31rem var(--fontFamily);
+  --h3: normal 400 1.5rem/ 1.75rem var(--fontFamily);
+
+  --text: normal 400 1rem/ 2rem var(--fontFamily);
+  --text-bold: normal 700 italic 1rem/ 2rem var(--fontFamily);
+}
+
+.body {
+  margin: 0;
+}
