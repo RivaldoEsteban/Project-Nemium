@@ -289,6 +289,17 @@ summary {
   color: white;
 }
 
+.variants a:hover {
+  background: black;
+  color: white;
+  width: 4.37rem;
+}
+
+.contenido li a:hover {
+  background: #5551ff;
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .header {
     display: block;
