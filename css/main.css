@@ -1,6 +1,8 @@
 .main-content {
+  margin-inline-start: 2.75rem;
   inline-size: 56.25rem;
   display: inline-block;
+  width: 75%;
 }
 
 .hr {
@@ -12,6 +14,8 @@
 .presentation h1 {
   font: var(--h1);
   color: var(--colorPrimary);
+  margin-top: 0;
+  line-height: 4.5rem;
 }
 
 .presentation h1::after {
@@ -53,14 +57,42 @@
 .tool-title {
   margin-block-end: 1rem;
   margin-block-start: 1rem;
-  font: var(--h3);
-  color: #424242;
   position: relative;
   line-height: 2.4rem;
 }
 
-.tool h3::before {
-  content: counter(tool-title);
+.tool h3 {
+  margin-block-end: 1rem;
+  margin-block-start: 2.5rem;
+}
+
+.tool p {
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+.web-development h3 {
+  counter-increment: titleList;
+}
+
+.web-development h3::before {
+  content: counter(titleList) ".";
+}
+
+.setup h3 {
+  counter-increment: titleList;
+}
+
+.setup h3::before {
+  content: counter(titleList) ".";
+}
+
+.setup img {
+  margin-block-start: 2.5rem;
+}
+
+.setup h2 {
+  margin-block-end: 0;
 }
 
 .tool-title::after {
@@ -74,10 +106,21 @@
   bottom: 0;
 }
 
+.pre {
+  background: #fec62e;
+  padding-block-end: 2.5rem;
+  padding-block-start: 2.5rem;
+  padding-inline-end: 2.5rem;
+  padding-inline-start: 2.5rem;
+}
+
 .tool-description {
   margin: 0;
-  font: var(--text);
-  color: #424242;
+}
+
+.image-dom {
+  width: 100%;
+  margin-block-start: 1rem;
 }
 
 .tool-description b {
@@ -88,6 +131,169 @@
   margin-block: 2.5rem;
 }
 
-.title-h2 {
-  font: var(--h2);
+.boxModel h2 {
+  margin-block-start: 10.25rem;
+}
+
+.boxModel h3 {
+  margin-block-start: 2.5rem;
+  margin-block-end: 1rem;
+}
+
+.contacto p {
+  margin: 0;
+}
+
+.contacto {
+  margin-block-end: 2.5rem;
+  margin-block-start: 2.5rem;
+}
+
+.subscribe {
+  margin-block-start: 2.5rem;
+  margin-block-end: 7.06rem;
+}
+
+.subscribe-form input[type="text" i] {
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+  padding-block-end: 0.75rem;
+  padding-block-start: 0.75rem;
+  border: 1px solid #616161;
+  width: 15.5rem;
+  border-radius: 3.5rem;
+  margin-inline-end: 1rem;
+}
+
+.subscribe-form button {
+  background: black;
+  color: white;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding-block-end: 0.79rem;
+  padding-block-start: 0.79rem;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  right: 7.7rem;
+}
+.change-img {
+  text-align: center;
+  margin-block-start: 1rem;
+}
+
+.change-img a {
+  display: inline-block;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #42424233;
+}
+
+.change-img a:active {
+  background: black;
+}
+
+.images {
+  object-fit: cover;
+  width: 100%;
+  height: 25.25rem;
+  overflow: hidden;
+}
+
+.images img {
+  height: inherit;
+  width: 100%;
+}
+
+.variants {
+  margin-block-end: 6.5rem;
+}
+.header {
+  font-family: var(--fontFamily);
+  color: #616161;
+}
+
+.header h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.5rem;
+  color: #616161;
+}
+
+.variants a {
+  display: block;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #616161;
+  margin-block-end: 0.5rem;
+  margin-block-start: 0.5rem;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  /* bottom: 0; */
+}
+
+.contenido a {
+  color: #616161;
+  text-decoration: none;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+.contenido li {
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+}
+
+summary {
+  margin-block-end: 1.5rem;
+  margin-block-start: 1rem;
+  cursor: pointer;
+}
+
+.contenido ol {
+  padding-left: 1.5rem;
+}
+
+.essential-concept summary p {
+  margin: 0;
+  display: inline-block;
+  width: 10rem;
+  vertical-align: top;
+}
+.essential-concept summary::marker {
+  display: inline-block;
+}
+
+.cita {
+  border-left: 4px solid#212121;
+  padding-inline-start: 1rem;
+  margin-block-start: 2rem;
+  margin-block-end: 4rem;
+}
+
+.contacto a {
+  color: #212121;
+}
+
+.footer-content.a h2 {
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    display: block;
+  }
+  .main-content {
+    width: 100%;
+  }
 }

@@ -1,0 +1,21 @@
+.footer-container {
+  background: #212429;
+  /* block-size: 10.87rem; */
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  padding-block-end: 3rem;
+  padding-block-start: 3rem;
+}
+
+.footer-content h2 {
+  color: white;
+}
+
+.footer-content img {
+  color: white;
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
+}

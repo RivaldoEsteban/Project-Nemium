@@ -1,5 +1,10 @@
 @import "./header.css";
 @import "./main-container.css";
+@import "./footer.css";
+@import "./nemiumb.css";
+@import "./nemiumc.css";
+@import "./nemiumd.css";
+@import "./nemiume.css";
 
 :root {
   --colorPrimary: #212121;
@@ -7,11 +12,41 @@
   --h1: normal 400 3.75rem/ 4.37rem var(--fontFamily);
   --h2: normal 400 2rem/ 2.31rem var(--fontFamily);
   --h3: normal 400 1.5rem/ 1.75rem var(--fontFamily);
-
   --text: normal 400 1rem/ 2rem var(--fontFamily);
   --text-bold: normal 700 italic 1rem/ 2rem var(--fontFamily);
 }
 
 .body {
   margin: 0;
+}
+
+.body.nemiumA h2 {
+  /* color: #212121; */
+}
+.body.nemiumA h3 {
+  color: #424242;
+}
+.body.nemiumA p {
+  color: #424242;
+}
+
+h2 {
+  font-family: var(--fontFamily);
+  font-size: 2rem;
+  line-height: 2.34rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: var(--fontFamily);
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+p {
+  font-family: var(--fontFamily);
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
 }

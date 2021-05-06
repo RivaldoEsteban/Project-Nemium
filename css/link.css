@@ -1,5 +1,32 @@
-.link-content {
-  inline-size: 11.75rem;
+.header {
   display: inline-block;
+  vertical-align: top;
+  inline-size: 11.75rem;
+}
+
+.link-content {
   margin-inline-end: 2rem;
+  text-align: start;
+}
+
+.project-variants ul {
+  padding: 0;
+}
+
+.project-variants li {
+  list-style: none;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  background: black;
+  border-radius: 4px;
+}
+
+.project-variants li:active {
+  background: red;
+}
+
+.project-variants a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font: var(--text);
 }

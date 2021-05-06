@@ -1,0 +1,81 @@
+.body.nemiume {
+  background: #232946;
+}
+
+.header.nemiumB.e a {
+  color: #b8c1ec;
+}
+
+.header.nemiumB.e ol {
+  color: #b8c1ec;
+}
+
+.header.nemiumB.e ol li a {
+  color: #b8c1ec;
+}
+
+.main-content.e p {
+  color: #b8c1ec;
+}
+
+.main-content.e h3 {
+  color: white;
+}
+
+.main-content.e h3::after {
+  color: white;
+  width: 0;
+}
+
+.main-content.e h2 {
+  color: white;
+}
+
+.cita.nemiumb.e {
+  background: #d4939d;
+  color: #232946;
+}
+
+.boxModel.e li::marker {
+  color: white;
+}
+
+.cita.nemiumb.e h6 {
+  color: #232946;
+  font-size: 1.5rem;
+  font-family: var(--fontFamily);
+  margin: 0 0;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-block-end: 1rem;
+}
+
+.pre.nemiumb.e {
+  color: white;
+  background: none;
+}
+
+.contacto.e a {
+  color: #eebbc3;
+}
+
+.subscribe-form.e button {
+  background: #eebbc3;
+  color: #232946;
+}
+
+.footer-container.e {
+  background: #eebbc3;
+}
+
+@media (max-width: 1250px) {
+  .main-content {
+    margin: 0;
+  }
+  .header {
+    position: initial;
+  }
+  .main-container.nemiumb {
+    padding: 0 9.5rem;
+  }
+}

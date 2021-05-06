@@ -1,0 +1,123 @@
+.img-background.nemiumb {
+  background: linear-gradient(96.07deg, #314755 30.63%, #26a0da 102.18%);
+}
+
+.body.nemiumb {
+  background: #251f24;
+}
+
+.body.nemiumb p {
+  color: #a5a3a5;
+}
+
+.wrapper.nemiumb {
+  color: white;
+}
+
+.header.nemiumB h4 {
+  color: white;
+}
+.header.nemiumB {
+  color: white;
+}
+
+.variants.nemiumB a {
+  color: #a5a3a5;
+}
+
+.variants.nemiumB ol {
+  color: #a5a3a5;
+}
+
+.presentation.nemiumB h1 {
+  color: white;
+}
+.presentation.nemiumB p {
+  color: #a5a3a5;
+}
+
+.project.nemiumB summary {
+  color: white;
+}
+
+.essential-concept.nemiumB p {
+  color: white;
+}
+
+.contenido.nemiumB ol {
+  color: #a5a3a5;
+}
+
+.pre.nemiumb,
+.cita.nemiumb {
+  background: #3a3539;
+}
+
+.cita.nemiumb {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.github {
+  border: 3px solid gray;
+  border-radius: 50%;
+  filter: invert();
+}
+
+.tools-img.nemiumb {
+  background: white;
+}
+
+.tool-title1.nemiumb::before {
+  content: "";
+}
+
+.boxModel-description.nemiumb ol {
+  color: #a5a3a5;
+}
+.boxModel-description.nemiumb li {
+  color: #a5a3a5;
+  margin: 5px 0;
+}
+
+.subscribe-form.nemiumb input {
+  display: block;
+  width: 95%;
+  background: none;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  margin-block-end: 1.5rem;
+}
+
+.subscribe-form.nemiumb input::-webkit-input-placeholder {
+  color: white;
+}
+
+.subscribe-form.nemiumb {
+  width: 100%;
+}
+
+.subscribe-form.nemiumb button {
+  display: block;
+  width: 100%;
+  position: initial;
+  background: #157efb;
+  border-radius: 0.5rem;
+}
+
+.footer-container.nemiumb {
+  background: white;
+  color: #3a3539;
+}
+.footer-container.nemiumb h2 {
+  color: #3a3539;
+}
+
+.contacto.nemiumb a {
+  color: #157efb;
+}
+
+.main-container.nemiumb {
+  padding: 0 7rem;
+  margin-top: 2rem;
+}

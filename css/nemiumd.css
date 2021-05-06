@@ -1,0 +1,107 @@
+.presentation.nemiumd {
+  text-align: center;
+}
+
+.img-background.nemiumd {
+  background: linear-gradient(
+      274.51deg,
+      rgba(74, 0, 224, 0.6) 5%,
+      rgba(142, 45, 226, 0.5) 130.61%
+    ),
+    url(../image/patron-2.png);
+  /* background-size: 50px; */
+}
+
+.main-container.nemiumd {
+  padding: 0 6.25rem;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.main-content.nemiumd {
+  margin-left: 0;
+  margin-right: 2.75rem;
+}
+
+.header.nemiumd {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.setup.nemiumd {
+  text-align: center;
+}
+
+.setup.nemiumd h3::after {
+  text-align: center;
+  width: 0;
+}
+
+.setup.nemiumd p b {
+  font-style: normal;
+  color: #5551ff;
+}
+
+.cita.nemiumd {
+  width: 400px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  border-left: 4px solid #5551ff;
+}
+
+.concepts.nemiumd {
+  text-align: center;
+}
+
+.pre.nemiumd {
+  border: 4px solid #5551ff;
+  background: none;
+  box-shadow: -10px 10px 0px 0px #abaaf6;
+}
+
+.ancla1 {
+  background: #5551ff;
+  display: inline-block;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.ancla2 {
+  background: #8e2de280;
+  display: inline-block;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.ancla3 {
+  display: inline-block;
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #8e2de280;
+}
+
+.change-img.nemiunmd a {
+  background: initial;
+}
+
+.enlases {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.subscribe-form.nemiumd button {
+  background: #5551ff;
+  border: 1px solid #5551ff;
+}
+
+@media (max-width: 1300px) {
+  .header.nemiumd {
+    position: initial;
+    display: block;
+  }
+}

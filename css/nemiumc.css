@@ -1,0 +1,65 @@
+.header.nemiumc {
+  position: inherit;
+  width: 100%;
+}
+
+.contenido.nemiumc .nav {
+  border-left: 4px solid #c4c4c4;
+  padding-left: 1rem;
+}
+
+.contenido.nemiumc ol {
+  padding-left: 1rem;
+}
+
+.contenido.nemiumc h5 {
+  font-size: 0.87rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #616161;
+}
+
+.tool-title.nemiumc::after {
+  content: "";
+  width: 0;
+}
+
+.tool-description.nemiumc b {
+  font-style: initial;
+}
+
+.pre.nemiumc {
+  background: #e5e5e5;
+}
+
+.boxModel-description li {
+  margin-block-end: 0.31rem;
+  font-family: var(--fontFamily);
+  color: #424242;
+}
+
+.footer-content h2 {
+  color: white;
+}
+
+.main-content.c {
+  width: 100%;
+}
+
+.subscribe-form.c {
+  border: 1px solid red;
+  width: 100%;
+}
+
+.subscribe-form.c {
+  border: 1px solid red;
+}
+
+.subscribe-form.c button {
+  position: absolute;
+  right: 0;
+}
+
+.form-imput {
+  position: relative;
+}
