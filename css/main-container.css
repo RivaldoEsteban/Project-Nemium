@@ -2,10 +2,9 @@
 @import "./main.css";
 
 .main-container {
-  padding-block-start: 4rem;
   max-width: 1300px;
   margin: auto;
-  padding: 0 7rem;
+  padding: 4rem 7rem 0;
 }
 
 .wrapper {
