@@ -68,6 +68,10 @@
   background: #eebbc3;
 }
 
+.boxModel-description.nemiumb.e li {
+  color: #b8c1ec;
+}
+
 @media (max-width: 1250px) {
   .main-content {
     margin: 0;
