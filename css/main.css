@@ -175,8 +175,6 @@
   color: white;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
-  /* padding-block-end: 0.8rem; */
-  /* padding-block-start: 0.85rem; */
   border: none;
   cursor: pointer;
   border-radius: 20px;
@@ -190,8 +188,6 @@
   .subscribe-form button {
     right: 55px;
     height: 100%;
-    /* padding-block-end: 0.7rem; */
-    /* padding-block-start: 0.8rem; */
   }
 }
 
