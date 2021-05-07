@@ -155,14 +155,19 @@
 }
 
 .subscribe-form input[type="text" i] {
-  padding-inline-end: 1rem;
-  padding-inline-start: 1rem;
-  padding-block-end: 0.75rem;
-  padding-block-start: 0.75rem;
+  width: 232px;
+  padding: 12px 60px 12px 24px;
   border: 1px solid #616161;
-  width: 15.5rem;
   border-radius: 3.5rem;
   margin-inline-end: 1rem;
+  box-sizing: border-box;
+  height: 100%;
+  color: white;
+}
+
+.subscribe-form {
+  width: 600px;
+  position: relative;
 }
 
 .subscribe-form button {
@@ -170,14 +175,26 @@
   color: white;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
-  padding-block-end: 0.79rem;
-  padding-block-start: 0.79rem;
-  border: 1px solid black;
+  /* padding-block-end: 0.8rem; */
+  /* padding-block-start: 0.85rem; */
+  border: none;
   cursor: pointer;
   border-radius: 20px;
-  position: relative;
-  right: 7.7rem;
+  position: absolute;
+  margin: 0;
+  right: 60px;
+  height: 100%;
 }
+
+@supports not (backdrop-filter: blur(8px)) {
+  .subscribe-form button {
+    right: 55px;
+    height: 100%;
+    /* padding-block-end: 0.7rem; */
+    /* padding-block-start: 0.8rem; */
+  }
+}
+
 .change-img {
   text-align: center;
   margin-block-start: 1rem;
