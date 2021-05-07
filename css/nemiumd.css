@@ -44,7 +44,7 @@
 }
 
 .cita.nemiumd {
-  width: 400px;
+  max-width: 400px;
   margin-inline-end: auto;
   margin-inline-start: auto;
   border-left: 4px solid #5551ff;
@@ -102,5 +102,11 @@
   .header.nemiumd {
     position: initial;
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content.nemiumd {
+    margin: 0;
   }
 }

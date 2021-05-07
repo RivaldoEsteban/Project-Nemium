@@ -321,3 +321,80 @@ summary {
     width: 100%;
   }
 }
+
+@media (max-width: 750px) {
+  .subscribe {
+    text-align: center;
+  }
+  .subscribe-form {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+  }
+  .subscribe-form input {
+    display: block;
+    margin: 0 0 1rem;
+  }
+
+  .subscribe-form button {
+    position: relative;
+    display: block;
+    left: 0;
+    height: 41px;
+    width: 232px;
+  }
+  .main-container {
+    padding: 4rem 3rem 0 !important ;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    padding: 4rem 3rem 0 !important;
+  }
+  .subscribe {
+    margin-block-end: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-container {
+    padding: 4rem 3rem 0 !important ;
+  }
+  .footer-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .subscribe {
+    margin-block-end: 3rem;
+  }
+  .images {
+    height: 200px;
+  }
+  .image-dom {
+    height: 200px;
+  }
+  .boxModel h2 {
+    margin-block-start: 7rem;
+  }
+  .presentation h1 {
+    font-size: 3.5rem !important;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .presentation h1 {
+    font-size: 2.5rem !important;
+    margin-top: 4rem;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  .main-container {
+    padding: 4rem 2rem 0 !important ;
+  }
+  .footer-content h2 {
+    font-size: 1.5rem !important;
+  }
+}
